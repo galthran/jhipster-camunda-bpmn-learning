@@ -1,0 +1,44 @@
+{
+  "generator-jhipster": {
+    "applicationType": "monolith",
+    "gitCompany": "",
+    "baseName": "jhipsterCamundaBpmnApplication",
+    "packageName": "com.jarosinski.jhipster",
+    "packageFolder": "com/jarosinski/jhipster",
+    "serverPort": 9090,
+    "serviceDiscoveryType": "eureka",
+    "authenticationType": "jwt",
+    "uaaBaseName": "../uaa",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "mysql",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "enableSwaggerCodegen": false,
+    "messageBroker": false,
+    "buildTool": "gradle",
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "testFrameworks": [
+      "gatling"
+    ],
+    "enableTranslation": false,
+    "nativeLanguage": "en",
+    "languages": [
+      "en"
+    ],
+    "clientFramework": "angularX",
+    "jhiPrefix": "jhi",
+    "jhipsterVersion": "6.0.1",
+    "jwtSecretKey": "MDQ4MWVlMDc0NmQ3Y2RiMDkwOGJmOTk1YTJkYTQ4ZDhhNzljNDlkZGRhMGVmNTgyNGMzMmQ0MTc0NjkxMmU1NWRmOWIwYjFlMDRlMDgxNmVmMDIyY2ViNmU3N2FkOGFjY2ExZTcxMjJhY2VkNWVkZGE4YWMwNDk1MTA4NWExOGU=",
+    "clientTheme": "none",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": []
+  },
+  "git-provider": "GitHub",
+  "git-company": "galthran",
+  "repository-name": "jhipster-camunda-bpmn-learning"
+}
